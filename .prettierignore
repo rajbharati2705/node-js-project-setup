@@ -1,0 +1,45 @@
+# Ignore the 'node_modules' directory (dependencies)
+node_modules/
+
+# Ignore the 'build' or 'dist' directories (compiled code or build output)
+build/
+dist/
+
+# Ignore the 'coverage' directory (test coverage reports)
+coverage/
+
+# Ignore log files
+*.log
+
+# Ignore environment files (e.g., .env files)
+.env
+.env.local
+.env.*.local
+
+# Ignore all minified JavaScript files
+**/*.min.js
+
+# Ignore package lock files and other lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore test folders or files
+test/
+tests/
+
+# Ignore any files with 'config' in their names
+**/*config*
+
+# Ignore configuration files (if they are not to be formatted)
+.eslintrc.js
+.prettierrc
+babel.config.js
+webpack.config.js
+
+# Ignore specific files or patterns
+src/old_code.js
+public/*.html
+
+commitlint.config.js
+eslint.config.mjs
