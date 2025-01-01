@@ -5,6 +5,7 @@
 2. Husky
 3. Typescript
 4. Folder structure
+5. Commit lint
 
 
 ## Initilize project
@@ -25,5 +26,7 @@ uncomment few lines from tsconfig.json
     npm i -D nodemon -> so that server restsrt automatically
     npm i -D ts-node
 
+## Commit lint
+    npm i @commitlint/cli @commitlint/config-conventional -D
 
 
