@@ -6,6 +6,7 @@
 3. Typescript
 4. Folder structure
 5. Commit lint
+6. Eslint fot typescript
 
 
 ## Initilize project
@@ -28,5 +29,8 @@ uncomment few lines from tsconfig.json
 
 ## Commit lint
     npm i @commitlint/cli @commitlint/config-conventional -D
+
+## Eslint fot typescript
+    npm install --save-dev eslint @eslint/js typescript-eslint
 
 

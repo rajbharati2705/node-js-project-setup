@@ -1,1 +1,2 @@
-console.log("Typescript setup done");
+// eslint-disable-next-line no-console
+console.log('hello');
