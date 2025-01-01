@@ -4,6 +4,7 @@
 1. Initilize project
 2. Husky
 3. Typescript
+4. Folder structure
 
 
 ## Initilize project
