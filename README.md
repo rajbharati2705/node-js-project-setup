@@ -9,6 +9,7 @@
 5. Commit lint
 6. Eslint fot typescript
 7. Prettier
+8. Project Environment
 
 ## Initilize project
 
@@ -43,3 +44,8 @@ uncomment few lines from tsconfig.json
 ## Prettier
 
     npm i -D --save-exact prettier
+
+## Project Environment
+
+    npm i dotenv-flow
+    npm i cross-env
