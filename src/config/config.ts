@@ -3,8 +3,7 @@ import dotenvFlow from 'dotenv-flow';
 
 dotenvFlow.config()
 
-// eslint-disable-next-line no-console
-console.log('process.env', process.env)
+//console.log('process.env', process.env)
 
 export default {
     ENV:process.env.ENV,

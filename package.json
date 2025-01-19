@@ -9,7 +9,7 @@
         "lint": "eslint",
         "lint:fix": "eslint --fix",
         "format:check": "prettier . --check",
-        "format:fix": "prettier . --fix",
+        "format:fix": "npx prettier . --write",
         "prepare": "husky"
     },
     "keywords": [],
@@ -38,7 +38,9 @@
         "typescript-eslint": "^8.19.0"
     },
     "dependencies": {
+        "@types/express": "^5.0.0",
         "cross-env": "^7.0.3",
-        "dotenv-flow": "^4.1.0"
+        "dotenv-flow": "^4.1.0",
+        "express": "^4.21.2"
     }
 }
