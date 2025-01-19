@@ -10,7 +10,8 @@
         "lint:fix": "eslint --fix",
         "format:check": "prettier . --check",
         "format:fix": "npx prettier . --write",
-        "prepare": "husky"
+        "prepare": "husky",
+        "lint-staged": "lint-staged"
     },
     "keywords": [],
     "author": "",

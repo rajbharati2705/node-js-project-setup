@@ -1,2 +1,3 @@
-. "$(dirname -- "$0")/_/husky.sh"
-npx lint-staged
+#!/bin/sh
+# Run linting or other tasks for pre-commit
+npm run lint-staged
